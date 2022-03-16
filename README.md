@@ -1,36 +1,32 @@
+![alt text](https://user-images.githubusercontent.com/73280726/158613827-8c536687-71fe-4b8f-a59c-0b9eaf3ec5aa.png)
 # HTTP Web Server
 
-A Hypertext Transfer Protocol (HTTP) 1.1 web server written in C++ 98, inspired by NginX.
+This school project is a `Hypertext Transfer Protocol (HTTP) 1.1 web server` written in `C++98`, inspired by `NginX`.
 
-This is a project for Codam Coding College.
 It can be used to serve any type of content to clients through the HTTP protocol.
 Content such as files, for websites or other purposes.
 
+**_This is a group project by [A. Chen](https://github.com/aprilmayjune135) & [M. Raasvel](https://github.com/mraasvel) & [N.vanAacken](https://github.com/vanaacken)._**
+
 ## Supported Functionalities
 
-The server listens on a socket (IP:Port).
+The server listens on a socket (`IP:Port`).
 
 It will accept connections on that socket and process HTTP requests.
 
-- HTTP Methods:
+- `HTTP Methods`
 
-	- GET
+	- `GET`: Fetch resources from the origin server.
 
-		Fetch resources from the origin server.
+	- `POST`: Upload or update resources on the origin server.
 
-	- POST
+	- `DELETE`: Delete resources on the origin server.
 
-		Upload or update resources on the origin server.
-
-	- DELETE
-
-		Delete resources on the origin server.
-
-- Common Gateway Interface (CGI)
+- `Common Gateway Interface (CGI)`
 
 	CGI allows the user to specify an external program to execute specific requests. The web server converts the HTTP request to a CGI request, reads the CGI response and converts it back into an HTTP response, which is returned to the client.
 
-- Configuration Options
+- `Configuration` Options
 
 	Implemented similarly to NginX's configuration. All directives are explained in detail [here](#configuration-syntax-and-directives).
 
