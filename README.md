@@ -1,4 +1,4 @@
-![alt text](https://user-images.githubusercontent.com/73280726/158613827-8c536687-71fe-4b8f-a59c-0b9eaf3ec5aa.png)
+![alt text](https://github.com/aprilmayjune135/images/blob/main/codam_logo.png?raw=true)
 # HTTP Web Server
 
 This school project is a `Hypertext Transfer Protocol (HTTP) 1.1 web server` written in `C++98`, inspired by `NginX`.
